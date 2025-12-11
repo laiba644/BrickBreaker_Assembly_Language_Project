@@ -25,7 +25,7 @@ left_limit dw 0
 right_limit dw 0
 mid dw 0
 highscore_filename db 'HISCORE.DAT',0
-highscore_value   dw 0       ; file se read / file me write
+highscore_value   dw 0      
 left_or_right: db 0
 preBall:dw 0
 live: db 3
